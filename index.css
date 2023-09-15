@@ -1,0 +1,199 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  height: 140px;
+  width: 100vw;
+  font-size: 36px;
+  font-weight: bold;
+  background-color: #0d1622;
+}
+.header ul {
+  font-family: font;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 40px;
+  height: 100%;
+  color: white;
+  align-items: center;
+}
+.header ul li {
+  width: 196px;
+  margin: 0 18px;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 824px;
+  background-image: url('img/9bcf0020-e9d9-4d76-9275-037b90e38abf.png');
+  background-size: cover;
+  color: white;
+  align-items: center;
+  padding-top: 348px;
+}
+.home img {
+  width: 164px;
+}
+.home .title {
+  font-size: 64px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+.home .desc {
+  font-size: 36px;
+}
+.home .desc p {
+  height: 80px;
+  margin: 0;
+}
+.home .more {
+  width: 240px;
+  height: 86px;
+  background-color: #a0572d;
+  font-size: 32px;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 86px;
+}
+.about {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 770px;
+  background-color: #c4b08c;
+  display: flex;
+  flex-direction: column;
+}
+.about .title {
+  font-size: 64px;
+  padding: 40px;
+  font-weight: bold;
+  padding-bottom: 0;
+  padding-right: 0;
+}
+.about .desc {
+  margin: 20px;
+  text-align:left;
+  margin-left: 120px;
+  margin-right: 60px;
+  font-size: 40px;
+}
+.about .list {
+  margin-top: 30px;
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+.about .list .item .text {
+  width: 250px;
+  height: 73px;
+  display: block;
+  background-color: #a0572d;
+  color: white;
+  border-radius: 25px;
+  font-size: 40px;
+  line-height: 73px;
+  text-align: center;
+  margin-top: 43px;
+  text-decoration: none;
+}
+.project {
+  height: 1024px;
+  width: 100vw;
+  background-color: #a1abb9;
+  display: flex;
+  flex-direction: column;
+}
+.project .title {
+  width: 606px;
+  height: 102px;
+  margin: 31px auto;
+  font-size: 64px;
+  font-weight: bold;
+  text-align: center;
+}
+.project .main {
+  display: flex;
+  margin: 0 95px;
+}
+.project .main .right {
+  position: relative;
+  margin-left: 76px;
+  font-size: 48px;
+}
+.project .main .right .subtitle {
+  width: 446px;
+  height: 97px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 97px;
+}
+.project .main .right .list .item {
+  width: 230px;
+  height: 58px;
+  line-height: 58px;
+  margin-top: 102px;
+}
+.project .main .right .more {
+  background-color: #a0572d;
+  font-size: 32px;
+  width: 305px;
+  height: 86px;
+  display: block;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 86px;
+  color: white;
+  margin-top: 159px;
+  margin-left: 195px;
+}
+.project img {
+  width: 601px;
+}
+.video {
+  font-size: 36px;
+  display: flex;
+  font-weight: bold;
+  flex-wrap: wrap;
+  height: 1024px;
+  background-color: #a0572d;
+  width: 100vw;
+  color: white;
+  padding-bottom: 60px;
+}
+.video .item {
+  margin-top: 54px;
+  margin-left: 54px;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+.video .item .text {
+  text-align: center;
+}
+.footer {
+  height: 200px;
+  background-color: #0d1622;
+  padding: 0 99px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 36px;
+}
+.footer img {
+  margin: 0 30px;
+}
+@font-face {
+  font-family: font;
+  src: url("Fredoka\ One.otf");
+}

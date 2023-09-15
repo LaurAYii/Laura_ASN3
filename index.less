@@ -1,0 +1,239 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    height: 140px;
+    width: 100vw;
+    font-size: 36px;
+    font-weight: bold;
+    background-color: #0d1622;
+
+    ul {
+        font-family: font;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-right: 40px;
+        height: 100%;
+        color: white;
+        align-items: center;
+
+        li {
+            width: 196px;
+            margin: 0 18px;
+        }
+
+    }
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    img {
+        width: 164px;
+    }
+    height: 1024px;
+    background-image: url('./img/9bcf0020-e9d9-4d76-9275-037b90e38abf.png');
+    color: white;
+    align-items: center;
+    padding-top: 348px;
+
+    .title {
+        font-size: 64px;
+        margin: 20px 0;
+        font-weight: bold;
+    }
+
+    .desc {
+        font-size: 36px;
+        // margin: 30px;
+       
+        // line-height: 200px;
+        p {
+            height: 80px;
+            margin: 0;
+        }
+    }
+
+
+    .more {
+        width: 240px;
+        height: 86px;
+        background-color: #a0572d;
+        font-size: 32px;
+        border-radius: 10px;
+        text-align: center;
+        line-height: 86px;
+    }
+}
+
+.about {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 770px;
+    background-color: #c4b08c;
+    display: flex;
+   
+    flex-direction: column;
+
+
+
+    .title {
+        font-size: 64px;
+        padding: 40px;
+        font-weight: bold;
+        padding-bottom: 0;
+        padding-right: 0;
+    }
+
+    .desc {
+        margin: 20px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .list {
+        
+        margin-top: 114px;
+        display: flex;
+        width: 100vw;
+        justify-content: space-around;
+
+        .item {
+            .text {
+                width: 250px;
+                height: 73px;
+                display: block;
+                background-color: #a0572d;
+                color: white;
+                border-radius: 25px;
+                font-size: 40px;
+                line-height: 73px;
+                text-align: center;
+                margin-top: 43px;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.project {
+    height: 1024px;
+    width: 100vw;
+    background-color: #a1abb9;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        width: 606px;
+        height: 102px;
+        margin: 31px auto;
+        font-size: 64px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .main {
+        display: flex;
+        margin: 0 95px;
+
+        .right {
+            position: relative;
+            margin-left: 76px;
+            font-size: 48px;
+
+            .subtitle {
+                width: 446px;
+                height: 97px;
+                font-weight: bold;
+                text-align: center;
+                line-height: 97px;
+            }
+
+            .list {
+                .item {
+                    width: 230px;
+                    height: 58px;
+                    line-height: 58px;
+                    margin-top: 102px;
+                }
+            }
+
+            .more {
+                background-color: #a0572d;
+                font-size: 32px;
+                width: 305px;
+                height: 86px;
+                display: block;
+                text-decoration: none;
+                border-radius: 10px;
+                text-align: center;
+                line-height: 86px;
+                color: white;
+                margin-top: 159px;
+                margin-left: 195px;
+            }
+        }
+    }
+
+    img {
+        width: 601px;
+    }
+
+}
+
+
+.video {
+    font-size: 36px;
+    display: flex;
+    font-weight: bold;
+    flex-wrap: wrap;
+    height: 1024px;
+    background-color: #a0572d;
+    width: 100vw;
+    color: white;
+
+    // justify-content: space-around;
+    .item {
+        margin-top: 54px;
+        margin-left: 54px;
+        display: block;
+        color: white;
+        text-decoration: none;
+        .text {
+            text-align: center;
+        }
+    }
+   padding-bottom: 60px;
+}
+
+.footer {
+    height: 200px;
+    background-color: #0d1622;
+    padding: 0 99px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 36px;
+    img {
+        margin: 0 30px;
+    }
+}
+
+
+@font-face{
+    font-family: font;
+    src: url("./Fredoka\ One.otf");
+}
